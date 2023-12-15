@@ -1,0 +1,63 @@
+.logo img{
+    width: 382px;
+}
+
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+
+.hed{
+    display: flex;
+    justify-content: center; /* Распределить пространство между элементами по ширине контейнера */
+    align-items: center; 
+
+    border: 1px solid #000;
+}
+  
+  /* убираем маркеры у списка*/
+  li {
+    list-style-type: none;
+  }
+  .ifo {
+    display: flex;
+    align-items: center; /* Выравнять элементы внутри .ifo по центру по вертикали */
+}
+
+.ifo img {
+    margin-right: 8px; /* Добавить немного отступа между изображениями внутри .ifo */
+}
+
+.pochta {
+    margin-left: 34px;
+    display: flex;
+    align-items: center; /* Выравнивание по центру по вертикали */
+}
+
+.nomer{
+    margin-left: 34px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.chasi{
+    margin-left: 34px;
+    display: flex;
+    align-items: center; /* Выравнивание по центру по вертикали */
+    white-space: nowrap;
+}
+
+.adress{
+    margin-left: 56px;
+    display: flex;
+    align-items: center; /* Выравнивание по центру по вертикали */
+    white-space: nowrap;
+}
+
+.insta{
+    margin-left: 34px;
+}
